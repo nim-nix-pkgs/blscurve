@@ -11,6 +11,7 @@
   inputs.src-blscurve-master.ref   = "refs/heads/master";
   inputs.src-blscurve-master.owner = "status-im";
   inputs.src-blscurve-master.repo  = "nim-blscurve";
+  inputs.src-blscurve-master.dir   = "";
   inputs.src-blscurve-master.type  = "github";
   
   inputs."nimcrypto".owner = "nim-nix-pkgs";

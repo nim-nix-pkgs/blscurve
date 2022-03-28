@@ -11,7 +11,6 @@
   inputs.src-blscurve-master.ref   = "refs/heads/master";
   inputs.src-blscurve-master.owner = "status-im";
   inputs.src-blscurve-master.repo  = "nim-blscurve";
-  inputs.src-blscurve-master.dir   = "";
   inputs.src-blscurve-master.type  = "github";
   
   inputs."nimcrypto".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."stew".type  = "github";
   inputs."stew".inputs.nixpkgs.follows = "nixpkgs";
   inputs."stew".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/status-im/nim-taskpools".owner = "nim-nix-pkgs";
+  inputs."github.com/status-im/nim-taskpools".ref   = "master";
+  inputs."github.com/status-im/nim-taskpools".repo  = "github.com/status-im/nim-taskpools";
+  inputs."github.com/status-im/nim-taskpools".dir   = "";
+  inputs."github.com/status-im/nim-taskpools".type  = "github";
+  inputs."github.com/status-im/nim-taskpools".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/status-im/nim-taskpools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

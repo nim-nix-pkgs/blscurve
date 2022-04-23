@@ -21,6 +21,33 @@
         "type": "github"
       }
     },
+    "github-status-im-nim-taskpools": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-github-status-im-nim-taskpools-v0_0_3": "src-github-status-im-nim-taskpools-v0_0_3"
+      },
+      "locked": {
+        "dir": "v0_0_3",
+        "lastModified": 1650754292,
+        "narHash": "sha256-j0pXubtZEtq6ISNmJ7tp2DvlYHNfoyft5SMtZlNyueo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-status-im-nim-taskpools",
+        "rev": "8434a676416bf8c6ac110ee88c03628318085f0e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_0_3",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-status-im-nim-taskpools",
+        "type": "github"
+      }
+    },
     "nimcrypto": {
       "inputs": {
         "flakeNimbleLib": [
@@ -33,11 +60,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648163345,
-        "narHash": "sha256-Czs+UnLS72ojOuhLzUHwMMOSiXKV6DLoR9W73GcQsSY=",
+        "lastModified": 1650750425,
+        "narHash": "sha256-gmEuanJDxYK+DGPMh3QNpGit6C/3G9fyDhB/mQfikY0=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "6b9d2f2ed7642fd92d3e8f3b37beca2135a0787e",
+        "rev": "c84c49556a90a23e96cbd0a71530be3180bbab54",
         "type": "github"
       },
       "original": {
@@ -62,6 +89,7 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "github-status-im-nim-taskpools": "github-status-im-nim-taskpools",
         "nimcrypto": "nimcrypto",
         "nixpkgs": "nixpkgs",
         "src-blscurve-master": "src-blscurve-master",
@@ -71,17 +99,34 @@
     "src-blscurve-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1644357418,
-        "narHash": "sha256-4jDOJQhWah6kYwO5LuzkLZK/o4nJtphXW2j0KVqJlPs=",
+        "lastModified": 1649328792,
+        "narHash": "sha256-h1FB7Sf28/seSG+z6viJISxG40tqPnO89qFFqtofK6o=",
         "owner": "status-im",
         "repo": "nim-blscurve",
-        "rev": "0237e4e0e914fc19359c18a66406d33bc942775c",
+        "rev": "71a30b926c2a66096a1925fd9b6e5a6ed1546d9b",
         "type": "github"
       },
       "original": {
         "owner": "status-im",
         "ref": "refs/heads/master",
         "repo": "nim-blscurve",
+        "type": "github"
+      }
+    },
+    "src-github-status-im-nim-taskpools-v0_0_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1644327016,
+        "narHash": "sha256-kUtpbdeTtaCb2HOEsqGQfddG4VMZE8Aew46W3Gdr4vM=",
+        "owner": "status-im",
+        "repo": "nim-taskpools",
+        "rev": "8d408ac6cfc9c24ec8b7b65d5993e85050dcbaa9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "status-im",
+        "ref": "refs/tags/v0.0.3",
+        "repo": "nim-taskpools",
         "type": "github"
       }
     },
@@ -105,11 +150,11 @@
     "src-stew-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1647462294,
-        "narHash": "sha256-c2oiWeZnbgllgiyneRUXquJsOoG2Iwzn8FK9nabHMjc=",
+        "lastModified": 1648728270,
+        "narHash": "sha256-Nv9hz5vWr5ziMRuQ+H79j23fhA9kLQiaSpwP/WO0eOc=",
         "owner": "status-im",
         "repo": "nim-stew",
-        "rev": "419903c9a31ab253cf5cf19f24d9a912dc4b5154",
+        "rev": "cdb1f213d073fd2ecbdaf35a866417657da9294c",
         "type": "github"
       },
       "original": {
@@ -131,11 +176,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648163641,
-        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
+        "lastModified": 1650754410,
+        "narHash": "sha256-Yx/tI82gM0/my0Y4eZ/4FotK1zuDtaSCiCYOXv6YEh0=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
+        "rev": "f6a3b32f0bdecbfb3fd5077f33296fd5724eb593",
         "type": "github"
       },
       "original": {

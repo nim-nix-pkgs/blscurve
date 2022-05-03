@@ -29,13 +29,13 @@
   inputs."stew".inputs.nixpkgs.follows = "nixpkgs";
   inputs."stew".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-status-im-nim-taskpools".owner = "nim-nix-pkgs";
-  inputs."github-status-im-nim-taskpools".ref   = "master";
-  inputs."github-status-im-nim-taskpools".repo  = "github-status-im-nim-taskpools";
-  inputs."github-status-im-nim-taskpools".dir   = "v0_0_3";
-  inputs."github-status-im-nim-taskpools".type  = "github";
-  inputs."github-status-im-nim-taskpools".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-status-im-nim-taskpools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."taskpools".owner = "nim-nix-pkgs";
+  inputs."taskpools".ref   = "master";
+  inputs."taskpools".repo  = "taskpools";
+  inputs."taskpools".dir   = "v0_0_3";
+  inputs."taskpools".type  = "github";
+  inputs."taskpools".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."taskpools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

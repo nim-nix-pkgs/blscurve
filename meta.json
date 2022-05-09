@@ -7,7 +7,7 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/status-im/nim-blscurve",
   "refs": [
-    "fatal: unable to access 'https://github.com/status-im/nim-blscurve/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/status-im/nim-blscurve/': OpenSSL SSL_read: Connection timed out, errno 110",
     ""
   ],
   "heads": []
